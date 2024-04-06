@@ -118,7 +118,7 @@ body{
 .leaf{
     width: 57px;
     height: 70px;
-    margin-left:1305px ;
+    margin-left:1290px ;
     margin-top:-50px ;
 }
 .tiles{
@@ -207,7 +207,102 @@ body{
 .spring_collection_banner{
     height: 370px;
     width: 100%;
+    position: relative;
 }
+.img_container{
+    height: 220px;
+    margin-left: 130px;
+    padding-top: 75px;
+    width: 81.5%;
+    position: relative;
+   
+}
+.pink_background{
+    border-radius: 8px;
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+.pink_bottle{
+    width: 100px;
+    height:207px ;
+    padding-top: 13px;
+}
+.spring_text1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000de;
+    font-family: SoDoSans_Regular,Helvetica,sans-serif;
+    line-height: 22px;
+}
+.spring_text2{
+    font-weight:bolder;
+    font-size: 20px;
+    color: #000000de;
+    font-family: SoDoSans_Regular,Helvetica,sans-serif;
+}
+.spring_text3{
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000de;
+    font-family: SoDoSans_Regular,Helvetica,sans-serif;
+    margin-top: 20px;
+}
+.spring_text4{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000de;
+    font-family: SoDoSans_Regular,Helvetica,sans-serif;
+    margin-top: -9px;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.block1{
+    position: absolute;
+    height: 220px;
+    width: 130px;
+    margin-top: -224px;
+}
+.block2{
+    position: absolute;
+    height: 220px;
+    width: 620px;
+    margin-top: -224px; 
+    margin-left: 130px;
+    display: grid;
+}
+.block3{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    margin-top: -224px; 
+    margin-left: 870px;
+}
+.spring_button{
+    height: 49px;
+    width: 200px;
+    border: 0;
+    line-height: 2.75rem;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #00754a;
+    position: absolute;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 30px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    padding-left: 75px;
+    margin-top: 145px;
+}
+   
 .handcraft{
     width: 100%;
     height: 265px;
@@ -319,6 +414,156 @@ body{
 }
 .banner{
     width: 100%;
-    height: 600px;
-    background-color: #6c757d;
+    height: 500px;
+    background-color:#edebe9;
+    display: grid;
+}
+.cofee_heading{
+    width:100%;
+    height: 92px;
+    display: flex;
+}
+.discover_more{
+    margin-left: 595px;
+    color: #00754a;
+    font-size: .9rem;
+    cursor: pointer;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-weight: bolder;
+    margin-top: 30px; 
+}
+.banner_img_container{
+    height: 370px;
+    margin-left: 130px;
+    width: 1100px;
+    position: relative;
+    margin-top: -38px;
+}
+.banner_img{
+    position: absolute;
+    border-radius: 8px;
+    height: 370px;
+    width: 1100px;
+}
+.cofee_text_block{
+    position: absolute;
+    height: 370px;
+    width: 570px;
+    margin-left: 30px;
+    display: grid;
+}
+.cofee_font1{
+    font-size: 28px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 137px;
+    letter-spacing: .8px;
+}
+.coffee_font2{
+   
+    font-weight: 400;
+    font-size: 14px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    color: #fff;
+    margin-top: -15px;
+}
+.cofee_button{
+    width: 200px;
+    height: 32px;
+    border: 0;
+    line-height: 2.75rem;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 16px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    color: #000;
+    background-color: #fff;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 16px;
+}
+.coffee_button1{
+    color: #096;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-size: 9px;
+    background: #e6edeb;
+    border-radius: 4px;
+    letter-spacing: .06em;
+    width: 85px;
+    font-weight: 400;
+    height: 20px;
+    margin-top: 15px;
+    border: #e6edeb;;
+}
+.footer{
+    width:100%;
+    height: 840px;
+    background-color: #0e382c;
+    padding-top: 120px;
+}
+.footer_container{
+    width:83%;
+    height: 700px;
+    margin-left: 122px;
+    display: flex;
+}
+.footer_box_1{
+    height: 800px;
+    width: 190px;
+    display: grid;
+}
+
+.footer_box_3{
+    height: 800px;
+    width: 165px;
+}
+.footer_bold_font{
+    font-size: 1.125em;
+    color: #fff;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.footer_normal_font{
+    font-weight:lighter;
+    font-size: .870em;
+    color: #fff;  
+}
+.footer_bolder_font{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #fff;  
+}
+.footer_Social_media{
+    display: flex;
+    margin-top: 15px;
+}
+.footer_social{
+    height: 35px;
+    width: 35px;
+}
+.line{
+    width:83%;
+    margin-left: 122px;
+    color: #a0a0a0;
+    margin-top: 40px;
+}
+.footer_end{
+    display: flex;
+    color: #fff;
+    font-size: .65em;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    margin-top: 30px;
+    margin-left: 122px;
+}
+.end_text{
+    padding-left: 20px;
 }
