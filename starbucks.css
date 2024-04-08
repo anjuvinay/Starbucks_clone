@@ -9,8 +9,11 @@ body{
 .header{
     height: 73px;
     width: 100%;
-    border: 1px slategrey;
+    border: 1px rgb(93, 94, 95);
     display: flex;
+    position: fixed;
+    background: #fff;
+    z-index: 1;
 }
 .head_caption{
     height: 83px;
@@ -316,7 +319,7 @@ body{
     padding-left: 75px;
     margin-top: 145px;
 }
-   
+
 .handcraft{
     width: 100%;
     height: 265px;
@@ -342,7 +345,7 @@ body{
     border-radius: 50%;
     border: 1px solid #edebe9;
     cursor: pointer;
-    margin-left: 10px;  
+    margin-left: 10px; 
 }
 .round_img:hover{ 
     border: 2px solid #00804c;  
