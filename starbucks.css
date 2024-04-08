@@ -21,6 +21,7 @@ body{
     background-color: #1e3932;
     display: flex;
     cursor: pointer;
+   padding-top: 70px;
    
 }
 .head_quote{
